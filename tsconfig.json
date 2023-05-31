@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "lib/esm",
+    "module": "ESNext",
+    "target": "ES6",
+    "lib": ["ES6", "DOM", "ES2016", "ES2022"],
+    "jsx": "react-jsx",
+    "declaration": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*.ts", "src/*.ts"],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "src/**/*.spec.ts"
+  ]
+}
